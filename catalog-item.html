@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс</title>
+  </head>
+  <body>
+	<header>
+		<div class="logo">
+			<h1>DEVICE</h1>
+		</div>
+		<nav class="navigation-additional">
+			<div class="search">
+				<input type="text" placeholder="Поиск по сайту">
+			</div>
+			<div class="site-functionality">
+				<ul>
+					<li><a href="#" alt="выйти">Выйти</a></li>
+					<li><a href="#" alt="сравнить">Сравнить</a></li>
+					<li><a href="#" alt="корзина">Корзина</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav class="main">
+			<ul>
+				<li><a href="#" alt="каталог товаров">Каталог товаров</a></li>
+				<li><a href="#" alt="доставка">Доставка</a></li>
+				<li><a href="#" alt="гарантия">Гарантия</a></li>
+				<li><a href="#" alt="контакты">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Моноподы для селфи</h1>
+		<ul>
+			<li><a href="#" alt="главная">Главная</a></li>
+			<li><a href="#" alt="каталог товаров">Каталог товаров</a></li>
+			<li><a href="#" alt="моноподы для селфи">Моноподы для селфи</a></li>
+		</ul>
+		<div class="filters">
+			<h2>ФИЛЬТР:</h2>
+			<form>
+				<h5>Стоимость</h5>				
+				<input type="range" min="0" max="10000" step="100" value="0,1000">
+				<h5>Цвет</h5>
+				<input id="filters-chk1" name="black-chk1" type="checkbox"><label for="black-chk1">Черный</label>
+				<input id="filters-chk2" name="white-chk2" type="checkbox"><label for="white-chk2">Белый</label>
+				<input id="filters-chk3" name="blue-chk3" type="checkbox"><label for="blue-chk3">Синий</label>
+				<input id="filters-chk4" name="red-chk4" type="checkbox"><label for="red-chk4">Красный</label>
+				<input id="filters-chk5" name="pink-chk5" type="checkbox"><label for="pink-chk5">Розовый</label>
+				<h5>Bluetooth</h5>
+				<input id="filters-rad1" name="exist-rad1" type="radio"><label for="exist-rad1">Есть</label>
+				<input id="filters-rad2" name="exist-rad2" type="radio"><label for="exist-rad2">Нет</label>
+				<button>ПОКАЗАТЬ</button>
+			</form>
+		</div>
+		<div class="catalog">
+			<div class="head">
+				<h3>СОРТИРОВКА</h3>
+				<ul>
+					<li>По цене</li>
+					<li>По типу</li>
+					<li>По популярности</li>
+				</ul>
+				<ul>
+					<li class="asc"></li>
+					<li class="desc"></li>
+				</ul>
+			</div>
+			<div class="items">
+				<div>
+					<img class="" src="" width="150" height="100">
+					<p>
+						<span class="name">Любительская селфи-палка</span>
+						<span class="price">500 руб.</span>
+					</p>
+				</div>
+				<div>
+					<img class="" src="" width="150" height="100">
+					<p>
+						<span class="name">Профессиональная селфи-палка</span>
+						<span class="price">1500 руб.</span>
+					</p>
+				</div>
+				<div>
+					<img class="" src="" width="150" height="100">
+					<p>
+						<span class="name">Непотопляемая селфи-палка</span>
+						<span class="price">2500 руб.</span>
+					</p>
+				</div>
+				<div>
+					<img class="new-item" src="" width="150" height="100">
+					<p>
+						<span class="name">Селфи-палка "Следуй за мной"</span>
+						<span class="price">4900 руб.</span>
+					</p>
+				</div>
+			</div>
+			<div class="paging">
+				<span>НАЗАД</span>
+				<ul>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul>
+				<span>ВПЕРЕД</span>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div>
+			<span class="logo"><h1>DEVICE</h1></span>
+			<ul>
+				<li>Войти</li>
+				<li>Сравнить</li>
+				<li>Корзина</li>
+			</ul>
+		</div>
+		<div>
+			<address>г. Москва, ул. Строителей, 15</address>
+			<nav>
+				<ul>
+					<li>Доставка</li>
+					<li>Гарантия</li>
+					<li>Контакты</li>
+				</ul>
+			</nav>
+			<span>
+				Тел. +7(495) 495-95-95
+			</span>
+		</div>
+		<div>
+			<ul>
+				<li class="facebook"><a href=""></a></li>
+				<li class="instagramm"><a href=""></a></li>
+				<li class="twitter"><a href=""></a></li>
+			</ul>
+		</div>
+	</footer>
+  </body>
+</html>
